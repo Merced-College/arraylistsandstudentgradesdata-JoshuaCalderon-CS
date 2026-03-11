@@ -4,21 +4,20 @@
     Program: Course Grades Analyzer
 
 */
-
-
-import java.utils.ArrayList
+import java.util.ArrayList;
 
 public class course{
     private String courseName;
     private ArrayList<Integer> courseGrades;
 
     // constructor
-    public Course()
-    this.courseName = " ";
-    this.courseGrades = " ";
+    public course(){
+    this.courseName = "";
+    this.courseGrades = new ArrayList<>();
+    }
 
     // constructor
-    public Course(String courseName, ArrayList<Integer> courseGrades){
+    public course(String courseName, ArrayList<Integer> courseGrades){
         this.courseName = courseName;
         this.courseGrades = courseGrades;
     }
