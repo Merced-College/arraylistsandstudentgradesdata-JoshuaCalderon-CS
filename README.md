@@ -3,3 +3,4 @@
 
 This is your README.md file where you can write your reflection response for this programming project.
 
+One challenge during this lab was correctly reading and parsing the CSV file. At first the program was not converting the grade counts into integers properly, which caused errors when calculating totals. After checking the split() results and using Integer.parseInt(), the issue was resolved. This lab helped me understand how an ArrayList can be stored inside an object and how objects can then be stored inside another ArrayList to organize program data.
